@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-
+import Header from "@/components/Header";
 export const metadata: Metadata = {
   title: "Creator Fuel!",
   description: "The best way to get your content out there.",
@@ -16,6 +16,7 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en">
       <body>
+        <Header />
         {children}
       </body>
     </html>
