@@ -13,6 +13,7 @@ function PricingPage() {
         <div className="max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
             {/* pricing title */}
             <PricingTitle />
+
         <div className="bg-white rounded-2xl shadow-xl p-8">
         <SchematicWrapper
          componentId={customerPortalComponentId} />

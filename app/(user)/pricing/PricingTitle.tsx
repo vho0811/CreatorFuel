@@ -1,5 +1,6 @@
 'use client'
 
+import useMembershipTier from "@/hooks/useMembershipTier";
 import { Heart } from "lucide-react";
 
 function PricingTitle() {
