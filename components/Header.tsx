@@ -38,15 +38,14 @@ import CurrentTierBadge from "./Badge/CurrentTierBadge";
                     </div>
 
                 </SignedIn>
-
                 <SignedOut>
-                    <Button className = " px-4 py-2 bg-red-500 text-white rounded-lg" asChild variant='outline'>
+                    <Button className = "cursor-pointer px-4 py-2 bg-red-500 text-white rounded-lg" asChild variant='outline'>
                     <div>
                     <SignInButton  mode = 'modal' />
                     <HeartIcon className = "w-4 h-4" />
                     </div>
-                    
                     </Button>
+
                 </SignedOut>
             </div>
         </header>   
